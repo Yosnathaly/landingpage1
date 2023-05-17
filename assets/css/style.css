@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(245, 206, 244);
+
+}
+
+.header{
+    max-width: 90%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 35px auto;
+    border-radius: 100px;
+    box-shadow: 5px 8px 12px rgb(230, 133, 178);
+}
+
+.header img{
+    width: 110%;
+    height: 100%;
+}
+
+.header h1{
+    font-size: 4rem;
+    color: rgb(204, 75, 165);
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    transform: translate(-10, -50%);
+    text-shadow: 0 0 20px rgb(241, 241, 245);
+}
+
+.foto {
+    width: 50%;
+    height: 50%; 
+    right: 10;
+    box-shadow: 2px 5px 12px rgb(230, 133, 178);
+    border-radius: 100px;
+    margin:110px ;
+    margin-right: 110;
+}
+
+.letras {
+    font-size: 2rem;
+    color: rgb(92, 89, 89);
+    position: relative;
+    top: -20%;
+    left: -20%;
+    transform: translate(-30, -30);
+    text-shadow: 50px 50px 50px 
+    
+}
+
+.footer {
+    font-family: "Open Sans";
+    width: 100vw;
+    background: #363535;
+    height: auto;
+    font-size: 3rem;
+    padding-top: 40px;
+}
+
+.footer p {
+    color: rgb(164, 123, 247)
+}
